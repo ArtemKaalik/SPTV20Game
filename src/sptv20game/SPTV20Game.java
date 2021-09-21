@@ -21,6 +21,9 @@ public class SPTV20Game {
         //Программа загадывает число и просит пользователя отгадать
         //Если пользователь отгадал, он выйграл
         //Иначе пользователь, проиграл
+        int choise = 0
+        while(choise == 0) {
+        do{
          int max = 5, min = 0, attempt = 1, userNum = -1;
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
